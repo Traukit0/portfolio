@@ -13,7 +13,7 @@ DATA = data.data
 
 def index() -> rx.Component:
     return rx.center(
-        # rx.theme_panel(),
+        # rx.theme_panel(), # acá se comenta para eliminar el panel de colores
         rx.vstack(
             header(DATA),
             about(DATA.about),
@@ -39,8 +39,8 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        accent_color="grass",
-        radius="full"
+        accent_color="yellow",
+        radius="medium"
     )
 )
 

@@ -4,7 +4,6 @@ from portafolio.components.icon_button import icon_button
 from portafolio.data import Info
 from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
-
 def info_detail(info: Info) -> rx.Component:
     return rx.flex(
         rx.hstack(
@@ -18,15 +17,15 @@ def info_detail(info: Info) -> rx.Component:
                     color_scheme="gray"
                 ),
                 rx.cond(
-                    info.technologies,
+                    bool(info.technologies),  # ⚠️ convertir a booleano explícitamente
                     rx.flex(
                         *[
                             rx.badge(
-                                rx.box(class_name=technology.icon),
-                                technology.name,
+                                rx.box(class_name=tech.icon),
+                                tech.name,
                                 color_scheme="gray"
                             )
-                            for technology in info.technologies
+                            for tech in info.technologies  # ✅ acceso directo a atributos primitivos
                         ],
                         wrap="wrap",
                         spacing=Size.SMALL.value
@@ -34,18 +33,12 @@ def info_detail(info: Info) -> rx.Component:
                 ),
                 rx.hstack(
                     rx.cond(
-                        info.url != "",
-                        icon_button(
-                            "link",
-                            info.url
-                        )
+                        bool(info.url),  # ⚠️ convertir a booleano
+                        icon_button("link", info.url)
                     ),
                     rx.cond(
-                        info.github != "",
-                        icon_button(
-                            "github",
-                            info.github
-                        )
+                        bool(info.github),
+                        icon_button("github", info.github)
                     )
                 ),
                 spacing=Size.SMALL.value,
@@ -55,7 +48,7 @@ def info_detail(info: Info) -> rx.Component:
             width="100%"
         ),
         rx.cond(
-            info.image != "",
+            bool(info.image),
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
@@ -66,16 +59,12 @@ def info_detail(info: Info) -> rx.Component:
         ),
         rx.vstack(
             rx.cond(
-                info.date != "",
+                bool(info.date),
                 rx.badge(info.date)
             ),
             rx.cond(
-                info.certificate != "",
-                icon_button(
-                    "shield-check",
-                    info.certificate,
-                    solid=True
-                )
+                bool(info.certificate),
+                icon_button("shield-check", info.certificate, solid=True)
             ),
             spacing=Size.SMALL.value,
             align="end"

@@ -1,54 +1,54 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Manuel E. Cano Nesbet | Portafolio",
+    "description": "Mi nombre es Manuel. Informático y Montañista",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Manuel Eduardo Cano Nesbet",
+    "skill": "Ingeniero en informática. Construyo herramientas que solucionan problemas reales",
+    "location": "Castro, Chiloé",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "m.canonesbet@uandresbello.edu",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/Traukit0",
+        "likedin": "https://www.linkedin.com/in/manuel-eduardo-cano-nesbet"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Soy una persona curiosa, inquieta y creativa. En constante aprendizaje",
     "technologies": [
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-mysql-original",
+            "name": "mysql"
+        },
+        {
+            "icon": "devicon-django-plain",
+            "name": "Django"
+        },
+        {
+            "icon": "devicon-flask-original",
+            "name": "Flask"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "fish",
+            "title": "Sernapesca",
+            "subtitle": "Desarrollador",
+            "description": "Construyo aplicaciones de apoyo a la fiscalización acuícola",
+            "date": "2013 - Actualidad"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "terminal",
+            "title": "ASISTEC S.A.",
+            "subtitle": "Jefe de Laboratorio. Desarrollador.",
+            "description": "Encargado de Laboratorio de muestreo. Implementación de herramientas digitales",
+            "date": "2010 - 2013"
         }
     ],
     "projects": [
@@ -89,19 +89,19 @@
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
+            "icon": "graduation-cap",
+            "title": "Universidad Andrés Bello",
+            "subtitle": "Ingeniería en Informática",
             "description": "Aprendí cosas.",
-            "date": "Indeterminado",
+            "date": "2025",
             "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
         },
         {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
+            "icon": "backpack",
+            "title": "DuocUC Concepción",
+            "subtitle": "Ingeniería en Acuicultura",
             "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
+            "date": "2010",
             "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
         }
     ],
