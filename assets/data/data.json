@@ -1,128 +1,152 @@
 {
     "title": "Manuel E. Cano Nesbet | Portafolio",
-    "description": "Mi nombre es Manuel. Informático y Montañista",
+    "description": "Ingeniero en formación, desarrollador autodidacta y amante de la montaña. Construyo soluciones que conectan tecnología y territorio.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Manuel Eduardo Cano Nesbet",
-    "skill": "Ingeniero en informática. Construyo herramientas que solucionan problemas reales",
-    "location": "Castro, Chiloé",
+    "skill": "Desarrollador backend y especialista en sistemas geoespaciales. Apasionado por la naturaleza y la resolución de problemas reales.",
+    "location": "Castro, Chiloé, Chile",
     "media": {
-        "email": "m.canonesbet@uandresbello.edu",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/Traukit0",
-        "likedin": "https://www.linkedin.com/in/manuel-eduardo-cano-nesbet"
+      "email": "m.canonesbet@uandresbello.edu",
+      "cv": "/data/cv.pdf",
+      "github": "https://github.com/Traukit0",
+      "likedin": "https://www.linkedin.com/in/manuel-eduardo-cano-nesbet"
     },
-    "about": "Soy una persona curiosa, inquieta y creativa. En constante aprendizaje",
+    "about": "Soy una persona curiosa, metódica y estructurada, con una profunda pasión por la tecnología y la naturaleza. Me motiva crear soluciones digitales que impacten positivamente en el entorno, especialmente en temas ambientales. Creo en el aprendizaje continuo y en la disciplina como motor para alcanzar metas complejas.",
     "technologies": [
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python"
-        },
-        {
-            "icon": "devicon-mysql-original",
-            "name": "mysql"
-        },
-        {
-            "icon": "devicon-django-plain",
-            "name": "Django"
-        },
-        {
-            "icon": "devicon-flask-original",
-            "name": "Flask"
-        },
-        {
-            "icon": "devicon-docker-plain",
-            "name": "Docker"
-        }
+      { "icon": "devicon-python-plain", "name": "Python" },
+      { "icon": "devicon-mysql-original", "name": "MySQL" },
+      { "icon": "devicon-django-plain", "name": "Django" },
+      { "icon": "devicon-flask-original", "name": "Flask" },
+      { "icon": "devicon-docker-plain", "name": "Docker" },
+      { "icon": "devicon-git-plain", "name": "Git" },
+      { "icon": "devicon-github-original", "name": "GitHub" },
+      { "icon": "devicon-postgresql-plain", "name": "PostgreSQL/PostGIS" },
+      { "icon": "devicon-linux-plain", "name": "Linux" },
+      { "icon": "devicon-qt-original", "name": "QGIS / PyQGIS" }
     ],
     "experience": [
-        {
-            "icon": "fish",
-            "title": "Sernapesca",
-            "subtitle": "Desarrollador",
-            "description": "Construyo aplicaciones de apoyo a la fiscalización acuícola",
-            "date": "2013 - Actualidad"
-        },
-        {
-            "icon": "terminal",
-            "title": "ASISTEC S.A.",
-            "subtitle": "Jefe de Laboratorio. Desarrollador.",
-            "description": "Encargado de Laboratorio de muestreo. Implementación de herramientas digitales",
-            "date": "2010 - 2013"
-        }
+      {
+        "icon": "fish",
+        "title": "Servicio Nacional de Pesca y Acuicultura (SERNAPESCA)",
+        "subtitle": "Analista de Gestión Ambiental",
+        "description": "Apoyo técnico en procesos de fiscalización ambiental, desarrollo de herramientas internas que mejoran los tiempos de análisis de inspecciones en centros acuícolas.",
+        "date": "2013 - Actualidad"
+      },
+      {
+        "icon": "terminal",
+        "title": "ASISTEC S.A.",
+        "subtitle": "Jefe de Laboratorio",
+        "description": "Gestión de muestreos y procesamiento de datos de laboratorios ambientales. Implementación de soluciones digitales para mejorar eficiencia del equipo técnico.",
+        "date": "2010 - 2013"
+      }
     ],
     "projects": [
-        {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
-            "technologies": [
-                {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
-                },
-                {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
-                }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
-        },
-        {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
-            "technologies": [
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
-                }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
-        }
+      {
+        "icon": "globe",
+        "title": "Playas Limpias",
+        "subtitle": "Plataforma geoespacial para gestión ambiental",
+        "description": "Sistema para identificar responsabilidades en la limpieza de playas afectadas por residuos acuícolas. Tecnología geoespacial moderna y backend robusto.",
+        "technologies": [
+          { "icon": "devicon-python-plain", "name": "Python" },
+          { "icon": "devicon-fastapi-plain", "name": "FastAPI" },
+          { "icon": "devicon-postgresql-plain", "name": "PostGIS" }
+        ],
+        "image": "/playas_limpias.jpg",
+        "url": "https://github.com/Traukit0/playas-limpias",
+        "github": "https://github.com/Traukit0/playas-limpias"
+      },
+      {
+        "icon": "map",
+        "title": "QGIS Plugin - Análisis INFA",
+        "subtitle": "Herramienta oficial en uso por SERNAPESCA",
+        "description": "Plugin de QGIS para análisis remoto de inspecciones ambientales en centros de cultivo. Utilizado institucionalmente por el equipo ambiental de SERNAPESCA.",
+        "technologies": [
+          { "icon": "devicon-python-plain", "name": "Python" },
+          { "icon": "devicon-qt-original", "name": "PyQGIS" }
+        ],
+        "image": "/plugin_infa.jpg",
+        "url": "https://github.com/Traukit0/analisis_infa",
+        "github": "https://github.com/Traukit0/analisis_infa"
+      },
+      {
+        "icon": "clipboard-check",
+        "title": "AcuiGestor",
+        "subtitle": "Sistema de gestión de inspecciones acuícolas",
+        "description": "Plataforma en desarrollo para registrar y visualizar fiscalizaciones a centros de cultivo. Arquitectura moderna y basada en contenedores.",
+        "technologies": [
+          { "icon": "devicon-python-plain", "name": "Flask" },
+          { "icon": "devicon-mysql-original", "name": "MySQL" },
+          { "icon": "devicon-docker-plain", "name": "Docker" }
+        ],
+        "image": "/acuigestor.jpg",
+        "url": "https://github.com/Traukit0/CONSULTA-CENTROS",
+        "github": "https://github.com/Traukit0/CONSULTA-CENTROS"
+      },
+      {
+        "icon": "image",
+        "title": "IMG to KMZ",
+        "subtitle": "Visualización rápida de fotos georreferenciadas",
+        "description": "App para convertir imágenes con coordenadas en archivos KMZ compatibles con Google Earth.",
+        "technologies": [
+          { "icon": "devicon-python-plain", "name": "Python" },
+          { "icon": "devicon-streamlit-plain", "name": "Streamlit" }
+        ],
+        "image": "/imgtokmz.jpg",
+        "url": "https://img-to-kmz.streamlit.app/",
+        "github": "https://github.com/Traukit0/img-to-kmz"
+      }
     ],
     "training": [
-        {
-            "icon": "graduation-cap",
-            "title": "Universidad Andrés Bello",
-            "subtitle": "Ingeniería en Informática",
-            "description": "Aprendí cosas.",
-            "date": "2025",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
-            "icon": "backpack",
-            "title": "DuocUC Concepción",
-            "subtitle": "Ingeniería en Acuicultura",
-            "description": "Aprendí más cosas.",
-            "date": "2010",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
+      {
+        "icon": "graduation-cap",
+        "title": "Universidad Andrés Bello",
+        "subtitle": "Ingeniería en Informática",
+        "description": "Titulación estimada septiembre 2025. Formación en bases de datos, programación y desarrollo de software.",
+        "date": "2025"
+      },
+      {
+        "icon": "school",
+        "title": "DuocUC",
+        "subtitle": "Ingeniería en Acuicultura",
+        "description": "Formación profesional en el área productiva y ambiental de la acuicultura.",
+        "date": "2010"
+      },
+      {
+        "icon": "certificate",
+        "title": "Python for Everybody",
+        "subtitle": "University of Michigan – Coursera",
+        "description": "Introducción completa a la programación con Python.",
+        "date": "2024"
+      },
+      {
+        "icon": "certificate",
+        "title": "GIS – Geographic Information Systems",
+        "subtitle": "University of California Davis – Coursera",
+        "description": "Fundamentos y aplicaciones prácticas de sistemas de información geográfica.",
+        "date": "2024"
+      },
+      {
+        "icon": "certificate",
+        "title": "IBM AI Developer (en curso)",
+        "subtitle": "IBM – Coursera",
+        "description": "Especialización en desarrollo de soluciones basadas en inteligencia artificial.",
+        "date": "En curso"
+      }
     ],
     "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-        }
+      {
+        "image": "/home_lab.jpg",
+        "title": "Servidor personal y autohosting",
+        "description": "Desarrollo de infraestructura doméstica basada en Linux, contenedores Docker, servidores multimedia y acceso seguro remoto mediante Cloudflare Tunnel.",
+        "url": "#"
+      },
+      {
+        "image": "/iot_temp.jpg",
+        "title": "IoT – Monitoreo del hogar",
+        "description": "Proyecto de automatización para seguimiento de temperatura en tiempo real usando Raspberry Pi, sensores y visualización en Grafana.",
+        "url": "#"
+      }
     ]
-}
+  }
+  
