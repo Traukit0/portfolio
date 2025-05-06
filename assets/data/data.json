@@ -51,7 +51,7 @@
           { "icon": "devicon-wordpress-plain", "name": "WordPress" },
           { "icon": "devicon-html5-plain", "name": "HTML/CSS" }
         ],
-        "image": "/cofra.jpg",
+        "image": "/cofra.png",
         "url": "https://www.cofraloslagos.cl",
         "github": ""
       },
@@ -65,7 +65,7 @@
           { "icon": "devicon-fastapi-plain", "name": "FastAPI" },
           { "icon": "devicon-postgresql-plain", "name": "PostGIS" }
         ],
-        "image": "/playas_limpias.jpg",
+        "image": "/playas_limpias.png",
         "url": "https://github.com/Traukit0/playas-limpias",
         "github": "https://github.com/Traukit0/playas-limpias"
       },
@@ -78,7 +78,7 @@
           { "icon": "devicon-python-plain", "name": "Python" },
           { "icon": "devicon-qt-original", "name": "PyQGIS" }
         ],
-        "image": "/plugin_infa.jpg",
+        "image": "/plugin_infa.png",
         "url": "https://github.com/Traukit0/analisis_infa",
         "github": "https://github.com/Traukit0/analisis_infa"
       },
@@ -92,7 +92,7 @@
           { "icon": "devicon-mysql-original", "name": "MySQL" },
           { "icon": "devicon-docker-plain", "name": "Docker" }
         ],
-        "image": "/acuigestor.jpg",
+        "image": "/acuigestor.png",
         "url": "https://github.com/Traukit0/CONSULTA-CENTROS",
         "github": "https://github.com/Traukit0/CONSULTA-CENTROS"
       },
@@ -105,7 +105,7 @@
           { "icon": "devicon-python-plain", "name": "Python" },
           { "icon": "devicon-streamlit-plain", "name": "Streamlit" }
         ],
-        "image": "/imgtokmz.jpg",
+        "image": "/imgtokmz.png",
         "url": "https://img-to-kmz.streamlit.app/",
         "github": "https://github.com/Traukit0/img-to-kmz"
       }
@@ -166,7 +166,13 @@
         "title": "IoT – Monitoreo del hogar",
         "description": "Proyecto de automatización para seguimiento de temperatura en tiempo real usando Raspberry Pi, sensores y visualización en Grafana.",
         "url": "#"
-      }
+      },
+      {
+        "image": "/extra_03.png",
+        "title": "Servidor Pi-hole – Seguridad en red local",
+        "description": "Servidor de red basado en Orange Pi Zero con Raspbian OS y Pi-hole. Filtra anuncios, rastreadores y sitios maliciosos a nivel de DNS, fortaleciendo la seguridad y privacidad de todos los dispositivos conectados en mi red local.",
+        "url": "#"
+      }      
     ]
   }
   
