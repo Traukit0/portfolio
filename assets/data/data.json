@@ -43,6 +43,19 @@
     ],
     "projects": [
       {
+        "icon": "layout-dashboard",
+        "title": "Sitio Web Asociación COFRA",
+        "subtitle": "Diseño y mantenimiento de sitio institucional",
+        "description": "Planificación, ejecución y soporte del sitio web de la Asociación de Funcionarios de SERNAPESCA. Implementado con WordPress y Elementor, actualmente en línea.",
+        "technologies": [
+          { "icon": "devicon-wordpress-plain", "name": "WordPress" },
+          { "icon": "devicon-html5-plain", "name": "HTML/CSS" }
+        ],
+        "image": "/cofra.jpg",
+        "url": "https://www.cofraloslagos.cl",
+        "github": ""
+      },
+      {
         "icon": "globe",
         "title": "Playas Limpias",
         "subtitle": "Plataforma geoespacial para gestión ambiental",
@@ -113,21 +126,28 @@
         "date": "2010"
       },
       {
-        "icon": "certificate",
-        "title": "Python for Everybody",
+        "icon": "file-badge",
+        "title": "Python for Everybody / Python 3 Programming",
         "subtitle": "University of Michigan – Coursera",
-        "description": "Introducción completa a la programación con Python.",
-        "date": "2024"
+        "description": "Dominio de estructuras de datos, lógica y programación con Python. Ambos cursos completados como parte de la especialización en desarrollo.",
+        "date": "2022 - 2023"
       },
       {
-        "icon": "certificate",
+        "icon": "file-badge",
         "title": "GIS – Geographic Information Systems",
         "subtitle": "University of California Davis – Coursera",
         "description": "Fundamentos y aplicaciones prácticas de sistemas de información geográfica.",
-        "date": "2024"
+        "date": "2023"
       },
       {
-        "icon": "certificate",
+        "icon": "file-badge",
+        "title": "IBM Data Analyst Specialization (en curso)",
+        "subtitle": "IBM – Coursera",
+        "description": "Herramientas de análisis de datos, SQL, visualización y gestión de bases de datos. Especialización aún en progreso.",
+        "date": "En curso"
+      },
+      {
+        "icon": "file-badge",
         "title": "IBM AI Developer (en curso)",
         "subtitle": "IBM – Coursera",
         "description": "Especialización en desarrollo de soluciones basadas en inteligencia artificial.",
@@ -136,13 +156,13 @@
     ],
     "extras": [
       {
-        "image": "/home_lab.jpg",
+        "image": "/extra_01.png",
         "title": "Servidor personal y autohosting",
         "description": "Desarrollo de infraestructura doméstica basada en Linux, contenedores Docker, servidores multimedia y acceso seguro remoto mediante Cloudflare Tunnel.",
         "url": "#"
       },
       {
-        "image": "/iot_temp.jpg",
+        "image": "/extra_02.png",
         "title": "IoT – Monitoreo del hogar",
         "description": "Proyecto de automatización para seguimiento de temperatura en tiempo real usando Raspberry Pi, sensores y visualización en Grafana.",
         "url": "#"
