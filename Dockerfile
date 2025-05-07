@@ -24,4 +24,4 @@ RUN pip install --upgrade pip && \
 EXPOSE 3001
 
 # Ejecutar Reflex en modo desarrollo
-CMD ["reflex", "run"]
+CMD ["reflex", "run", "--env", "prod"]
