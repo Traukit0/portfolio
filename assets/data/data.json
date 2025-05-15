@@ -141,17 +141,17 @@
       },
       {
         "icon": "file-badge",
-        "title": "IBM Data Analyst Specialization (en curso)",
+        "title": "IBM Data Analyst Specialization",
         "subtitle": "IBM – Coursera",
-        "description": "Herramientas de análisis de datos, SQL, visualización y gestión de bases de datos. Especialización aún en progreso.",
-        "date": "En curso"
+        "description": "Herramientas de análisis de datos, SQL, visualización y gestión de bases de datos.",
+        "date": "2025"
       },
       {
         "icon": "file-badge",
-        "title": "IBM AI Developer (en curso)",
+        "title": "IBM AI Developer",
         "subtitle": "IBM – Coursera",
         "description": "Especialización en desarrollo de soluciones basadas en inteligencia artificial.",
-        "date": "En curso"
+        "date": "2025"
       }
     ],
     "extras": [
