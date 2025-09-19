@@ -20,11 +20,23 @@ reflex init
 # Exportar solo frontend (optimizado)
 reflex export --no-zip --frontend-only
 
-# Mover archivos estáticos al directorio public
-mv .web/_static public
+# Verificar estructura de directorios y copiar archivos
+if [ -d ".web/_static" ]; then
+    echo "📁 Copiando desde .web/_static"
+    cp -r .web/_static public
+elif [ -d ".web" ]; then
+    echo "📁 Copiando desde .web"
+    cp -r .web public
+else
+    echo "❌ Error: No se encontró directorio de build"
+    ls -la
+    exit 1
+fi
 
 # Limpiar archivos temporales
 rm -rf .web
 deactivate
 
 echo "✅ Build completado exitosamente"
+echo "📂 Contenido del directorio public:"
+ls -la public/
