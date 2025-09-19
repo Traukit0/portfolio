@@ -33,6 +33,17 @@ else
     exit 1
 fi
 
+# Verificar que index.html existe
+if [ ! -f "public/index.html" ]; then
+    echo "❌ Error: index.html no encontrado en public/"
+    echo "📂 Contenido de public/:"
+    ls -la public/
+    exit 1
+fi
+
+# Crear archivo _redirects para manejo de rutas SPA
+echo "/*    /index.html   200" > public/_redirects
+
 # Limpiar archivos temporales
 rm -rf .web
 deactivate
