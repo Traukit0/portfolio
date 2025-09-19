@@ -14,12 +14,11 @@ pip install -r requirements.txt
 # Inicializar Reflex
 reflex init
 
-# Exportar solo frontend (optimizado)
-reflex export --frontend-only
+# Exportar como sitio estático
+reflex export --frontend-only --no-zip
 
-# Descomprimir archivos estáticos
-unzip frontend.zip -d public
-rm -f frontend.zip
+# Mover archivos al directorio public
+mv .web/_static public
 
 # Limpiar archivos temporales
 deactivate
