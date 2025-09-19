@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "build.sh",
+            "src": "build_vercel.sh",
             "use": "@vercel/static-build",
             "config": {
                 "distDir": "public"
@@ -14,5 +14,10 @@
             "src": "/(.*)",
             "dest": "/public/$1"
         }
-    ]
+    ],
+    "functions": {
+        "build_vercel.sh": {
+            "maxDuration": 300
+        }
+    }
 }
