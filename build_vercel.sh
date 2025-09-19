@@ -21,12 +21,15 @@ reflex init
 reflex export --no-zip --frontend-only
 
 # Verificar estructura de directorios y copiar archivos
-if [ -d ".web/_static" ]; then
+if [ -d ".web/public" ]; then
+    echo "📁 Copiando desde .web/public"
+    cp -r .web/public/* public/
+elif [ -d ".web/_static" ]; then
     echo "📁 Copiando desde .web/_static"
-    cp -r .web/_static public
+    cp -r .web/_static/* public/
 elif [ -d ".web" ]; then
     echo "📁 Copiando desde .web"
-    cp -r .web public
+    cp -r .web/* public/
 else
     echo "❌ Error: No se encontró directorio de build"
     ls -la
