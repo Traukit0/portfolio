@@ -1,6 +1,6 @@
 {
     "title": "Manuel E. Cano Nesbet | Portafolio",
-    "description": "Ingeniero en formación, desarrollador autodidacta y amante de la montaña. Construyo soluciones que conectan tecnología y territorio.",
+    "description": "Ingeniero, desarrollador autodidacta y amante de la montaña. Construyo soluciones que conectan tecnología y territorio.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Manuel Eduardo Cano Nesbet",
@@ -115,7 +115,7 @@
         "icon": "graduation-cap",
         "title": "Universidad Andrés Bello",
         "subtitle": "Ingeniería en Informática",
-        "description": "Titulación estimada septiembre 2025. Formación en bases de datos, programación y desarrollo de software.",
+        "description": "Formación en bases de datos, programación y desarrollo de software.",
         "date": "2025"
       },
       {
