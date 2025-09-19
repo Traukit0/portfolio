@@ -14,6 +14,9 @@ pip install -r requirements.txt
 # Limpiar directorio público anterior
 rm -rf public
 
+# Crear directorio public
+mkdir -p public
+
 # Inicializar Reflex
 reflex init
 
