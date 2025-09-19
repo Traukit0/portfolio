@@ -5,7 +5,7 @@
             "src": "build_vercel.sh",
             "use": "@vercel/static-build",
             "config": {
-                "distDir": "public"
+                "distDir": ".web"
             }
         }
     ],
